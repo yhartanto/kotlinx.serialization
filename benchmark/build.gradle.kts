@@ -13,7 +13,9 @@ plugins {
     alias(libs.plugins.serialization)
     alias(libs.plugins.shadow)
     alias(libs.plugins.jmh)
-    kotlin("kapt") // For annotation processing
+//    kotlin("kapt") // For annotation processing
+
+    id("com.google.devtools.ksp") version "2.2.0-2.0.2"
 }
 
 java {
@@ -67,5 +69,5 @@ dependencies {
 
     // Moshi
     implementation(libs.moshi.kotlin)
-    kapt(libs.moshi.codegen)
+    ksp(libs.moshi.codegen)
 }

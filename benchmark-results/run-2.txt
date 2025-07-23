@@ -1,0 +1,9 @@
+Benchmark                          Mode  Cnt     Score    Error  Units
+CitmBenchmark.decodeCitm          thrpt   14   474.585 ± 39.625  ops/s
+CitmBenchmark.decodeCitmMoshi     thrpt   14   238.398 ±  3.642  ops/s
+CitmBenchmark.decodeCitmMoshiGen  thrpt   14   264.340 ±  9.770  ops/s
+CitmBenchmark.decodeCitmProto     thrpt   14   713.893 ±  8.899  ops/s
+CitmBenchmark.encodeCitm          thrpt   14  1330.558 ± 19.503  ops/s
+CitmBenchmark.encodeCitmMoshi     thrpt   14   564.475 ±  4.635  ops/s
+CitmBenchmark.encodeCitmMoshiGen  thrpt   14   841.742 ±  5.696  ops/s
+CitmBenchmark.encodeCitmProto     thrpt   14  1310.601 ± 56.669  ops/s

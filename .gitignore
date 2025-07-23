@@ -23,3 +23,5 @@ node_modules
 
 # Intermediate klibs
 .kotlin
+local.properties
+
